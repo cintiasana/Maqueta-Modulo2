@@ -1,0 +1,222 @@
+/*ESTILOS INDEX*/
+
+body {
+    background: #FCE2DB;
+}
+
+/*barra de navegacion colores degradientes*/
+.navbar.navbar-expand-lg.bg-info {
+    background: rgb(161,18,249);
+    background: linear-gradient(164deg, rgba(161,18,249,0.8799894957983193) 30%, rgba(253,29,248,0.8295693277310925) 52%, rgba(252,69,140,1) 97%);
+}
+
+/*logo yo programo*/
+.logo-yoprogramo {
+    margin-left: -1550px;
+    color: #F5E8C7;
+}
+/*iconos de la barra de navegacio*/
+.list-group-item{
+    color:#F5E8C7;
+    background-color:transparent;
+}
+
+/*reaccion de instagram, cursor*/
+i.fa-brands.fa-instagram.fa-2xl:hover {
+    color: rgb(233, 95, 189);
+    color: linear-gradient(164deg, rgba(249,18,176,0.969625350140056) 22%, rgba(253,29,29,1) 32%, rgba(252,244,69,1) 48%);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de facebook, cursor*/
+i.fa-brands.fa-facebook.fa-2xl:hover {
+    color: rgb(42, 42, 240);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de linkedin, cursor*/
+i.fa-brands.fa-linkedin.fa-2xl:hover {
+    color: rgb(148, 148, 236);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de github, cursor*/
+i.fa-brands.fa-github.fa-2xl:hover {
+    color: rgb(1, 1, 14);
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de usuario con candado, cursor*/
+i.fa-solid.fa-user-lock.fa-2xl:hover {
+    color: #7F5283;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de usuario abierto, cursor*/
+i.fa-solid.fa-user.fa-2xl:hover {
+    color: #7F5283;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de home-volver del dashboard2*/
+.fas.fa-home.fa-2xl:hover {
+    color: #7F5283;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de agrandar los iconos*/
+a.list-group-item.list-group-item-action:hover{
+    background: transparent;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.25);
+}
+
+/*reaccion de los iconos, fondo*/
+.list-group-item:hover {
+    background-color: #FFF5EB;
+}
+
+/*fondo del banner*/
+.banner {
+    background: #ECCCB2;
+    padding: 120px;
+    padding-bottom: 15px;
+}
+
+/*imagen del banner*/
+.img-banner {
+    height: 400px;
+    width: 600px;
+    margin-left: 600px;
+}
+
+/*titulo h1 del baner*/
+.title-banner {
+    margin-top: -400px;
+    margin-left: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    color: #7B6079;
+    font-weight: 300px;
+}
+
+/*presentacion del banner, parrafo*/
+.presentacion {
+    margin: 30px;
+    height: 50px;
+    width: 700px;
+    color: #80558C;
+}
+
+/*imagen de perfil*/
+section.about {
+    margin-top: 10rem;
+    margin-right: 400px;
+}
+
+/*titulo nombre perfil*/
+h5.title-abaut {
+    margin-top: 4rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #2A0944;
+}
+/*SECCION EN GENERAL*/
+
+/*Cadros de secciones*/
+.cuadrados {
+    background: #FFD8A9;
+    border: 1px solid #810955;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #610C63;
+    background: rgb(241,166,97);
+background: linear-gradient(321deg, rgba(241,166,97,0.8603816526610644) 25%, rgba(255,216,169,0.6979166666666667) 73%, rgba(255,216,169,1) 100%);
+}
+
+/*puesto*/
+.puesto {
+    text-align: left;
+    margin-left: -13rem;
+}
+
+/*titulos dentros de los cuadrados*/
+.puntos {
+    text-align: left;
+    color: #42032C;
+}
+
+/*titulos secciones*/
+.titulo-secciones {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #781C68;
+}
+
+/*SECCION EXPERIENCIA*/
+
+/*logo de empresa*/
+.logo-empresa {
+    width: 1.8rem;
+    height: 1.3rem;
+    text-align: left;
+    margin-left: -20rem;
+}
+
+/*nombre empresa*/
+.empresa {
+    text-align: left;
+    margin-left: -12rem;
+}
+
+/*antigüedad*/
+.años {
+    text-align: left;
+    margin-left: -11rem;
+}
+
+
+
+
+
+/*ESTILOS DE LA PAG. DASHBOARD*/
+
+/*fondo del dashboard*/
+.fondo-dashboard {
+    background: #F0D9FF ;
+}
+
+
+
+/*ESTILOS DE LA PAG. DASHBOARD 2*/
+
+
+/*fondo del dashboard2*/
+fondo-dashboard2 {
+    background: #CBA0AE;    
+}
+
+/*botones editables*/
+.btn-primary {
+    background: #AF7AB3;
+}
+
+/*botones editables*/
+.btn-primary:hover {
+    background: rgb(161,18,249);
+    background: linear-gradient(164deg, rgba(161,18,249,0.8799894957983193) 30%, rgba(253,29,248,0.8295693277310925) 52%, rgba(252,69,140,1) 97%);
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.55);
+}
+
+.list-group-item.list-group-item-action{
+    border: none;
+}
